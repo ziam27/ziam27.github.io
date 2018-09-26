@@ -1,0 +1,26 @@
+header{
+	background: url("http://wallpaperstock.net/hd-wide_wallpapers_15987_1600x1200.jpg" alt= "cool pic" class="cover");
+    background-image: center; 
+      }
+}
+
+h1{ 
+	text-align: center;
+	color: rgba(140,15,68,3); 
+	font-family: 'Roboto', sans-serif;
+	background: white;
+}
+
+h2{ 
+	text-align: center;
+	color: rgba(140,15,68,3); 
+	font-family: 'Roboto', sans-serif;
+	background: white;
+ }
+ body{
+ 	text-align: center;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-weight: 100;
+ 	background: rgb(222,222,222);
+ }
+
