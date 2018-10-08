@@ -1,0 +1,21 @@
+ .container{
+	width: 720px;
+    padding: 54px;
+    border-left: solid 6px #dddddd;
+}
+
+h1{
+	color: red;
+	font-family:"Lato";
+	font-weight: 300;
+	line-height: 1.5;
+	font-size: 45px;
+}
+h2{
+	font-family:"Lato";
+	font-size: 30px;
+}
+
+#top-nav{
+	padding-right: 30px;
+}
