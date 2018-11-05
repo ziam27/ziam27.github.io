@@ -20,87 +20,60 @@
 
 */
 
-var total = 0 
+var total = 0
 
-function addTen() {
-  	total = total + 10;
-  	$('#out').html(total);
+function add10() {
+	total = total + 10
+	$('#out').html(total)	
 }
 
-$('#a10').click(addTen)
-
-   	
-function addTwenty() {
-	total = total + 20;
-	$('#out').html(total);
+function add20() {
+	total = total + 20
+	$('#out').html(total)	
 }
 
- $('#a20').click(addTwenty)
-
-function addThirty() {
-  	total = total + 30;
-  	$('#out').html(total);
+function add30() {
+	total = total + 30
+	$('#out').html(total)	
 }
 
-$('#a30').click(addThirty)
-
-function lessTen() {
-	total = total - 10;
-	$('#out').html(total);
+function minus10() {
+	total = total - 10
+	$('#out').html(total)	
 }
 
-$('#m10').click(lessTen)
-
-function lessTwenty() {
-  	total = total - 20;
-  	$('#out').html(total);
+function minus20() {
+	total = total - 20
+	$('#out').html(total)	
 }
 
-$('#m20').click(lessTwenty)
-
-
-function lessThirty() {
-  	total = total - 30
-  	$('#out').html(total);
+function minus30() {
+	total = total - 30 
+	$('#out').html(total)	
 }
 
-$('#m30').click(lessThirty) 
+function changeRed() {
+	$('#out').css('background', 'red')
+}
 
+function changeBlue() {
+	$('#out').css('background', 'blue')
+}
 
-function refresh() {
-	
-	total = 0;
+function reset() {
+	total = 0
 
 	$('#out')
-
-	.css('background', 'white');
-	§.html(total);
+		.text(total)
+		.css('background', 'white')
 }
 
-$('#out').click(refresh);
-
-
-function changeRed () {
-	$('#out').css('background', 'red');
-}
-
-
-
-
-$('#a10').click (addTen)
+$('#a10').click(add10)
+$('#a20').click(add20)
+$('#a30').click(add30)
+$('#m10').click(minus10)
+$('#m20').click(minus20)
+$('#m30').click(minus30)
 $('#red').click(changeRed)
+$('#blue').click(changeBlue)
 $('#out').click(reset)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
