@@ -10,72 +10,108 @@ body {
 }
 
 #page-header {
-	background-color: white;
-	display: flex;
-	justify-content: space-between;
-	height: 100px;
+  background-color: white;
+  height: 130px;
+  text-align: center;
+  margin-top: 25px;
 }
 
 #page-header a {
-	font-family: 'Audiowide', cursive;
-	text-decoration: bold;
-	padding-right: 15px;
-	color: black;
-	font-size: 28px;
-	
+  font-family: 'Audiowide', cursive;
+  text-decoration: bold;
+  padding-right: 15px;
+  padding-left: 30px;
+  color: black;
 }
 
 #page-header h1 {
-	line-height: 30px;
-    font-size: 55px;
+    font-size: 60px;
     font-weight: 800;
     font-family: 'Audiowide', cursive;
     text-decoration: bold;
-
+    color: black;
+    margin: 0;
+    padding-bottom: 15px
+    
 }
 
-#page-header h1 a{
-	color: black; 
-	padding-left: 30px;
+.navbox{
+  background-color: black;
 }
 
-
- #page-header nav {
- 	padding-top: 40px;
- 	padding-right: 150px;
+#page-header .navbox a{
+  color: white; 
+  font-size: 15px;
 }
-
 
 footer {
-	background: black;
-	color: white;
-	padding: 2% 3%;
-	text-align: center;
-	font-family: 'Audiowide', cursive;
+  background: black;
+  color: white;
+  padding: 2% 3%;
+  text-align: center;
+  font-family: 'Audiowide', cursive;
 }
 
 .class {
-	background: red;
-	text-align: center;
-
+  background: red;
+  text-align: center;
 }
 
 h2{
-	color: white;
-	text-align: center;
-	font-family: 'Audiowide', cursive;
-	text-align: center;
+  color: white;
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+  text-align: center;
 }
 
 p{
-	color: black;
-	text-align: center;
-	font-family: 'Audiowide', cursive;
-	background: white;
-	padding-top: 8px;
-	padding-bottom: 8px;
+  color: black;
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+  background: white;
+  padding-top: 8px;
+  padding-bottom: 15px;
+  margin-bottom: 0;
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
+
+.try{
+  background: black;
+  color: white;
+
+}
+
+h3{ 
+  color: white;
+  text-align: center;
+  font-family: 'Audiowide', cursive;
+  text-align: center;
+
+ }
+
+.images{
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  padding-right: 150px;
+  padding-left: 150px;
+  padding-top: 10px;
+
+}
+
+img{
+  height: 100px;
+}
+
+.inputs{
+  
+
+}
+
+
 
 
 .container{
@@ -179,4 +215,7 @@ p{
 .wheel.two .wheel-inner {
   -webkit-animation: anticlockwise 5s linear infinite;
 }
+
+
+
 
