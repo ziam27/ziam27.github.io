@@ -107,11 +107,20 @@ img{
 }
 
 .inputs{
-  
-
+    background: white;
+    color: black;
+    height: 350px;
+   
 }
 
+.inputs h3{
+  color: black;
+  text-align: center;
+}
 
+#list{
+  text-align: center;
+}
 
 
 .container{
