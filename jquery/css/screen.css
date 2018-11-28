@@ -80,7 +80,7 @@ body {
   width: 250px;
   margin: 0 auto;
   position: relative;
-  background: black;
+  background: linear-gradient(309deg, #333333, #dd1818);
   border-style: solid;
   border-width: 5px;
   border-color: white;
@@ -99,7 +99,7 @@ body {
   /*background: #000;*/
 }
 .wheel:after{
-  background: repeat scroll 0 0 black;
+  background: repeat scroll 0 0 linear-gradient(309deg, #333333, #dd1818);
   border-radius: 36px;
   content: "";
   height: 60px;
