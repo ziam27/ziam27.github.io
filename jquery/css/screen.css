@@ -2,9 +2,24 @@
 @import "reset.css";
 
 
+#page-header {
+  height: 130px;
+  text-align: left;
+  margin-top: 25px;
 
+}
 
-h1{ 
+#page-header a {
+  font-family: 'Audiowide', cursive;
+  text-decoration: bold;
+  padding-right: 15px;
+  padding-left: 30px;
+  color: white;
+
+  }
+
+#page-header h1{ 
+	text-align: left;
 	font-size: 60px;
     font-weight: 800;
     font-family: 'Audiowide', cursive;
@@ -14,6 +29,10 @@ h1{
     padding-bottom: 15px
  }
 
+ #page-header .navbox a{
+  color: white; 
+  font-size: 15px;
+
 
 
 
@@ -21,7 +40,6 @@ h1{
 
 body { 
 
-	
 	margin: 0; 
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
