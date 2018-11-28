@@ -3,17 +3,37 @@
 
 
 
-body { background: #333; font:14px/21px Helvetica, Arial, sans-serif; color: #333; margin: 0; padding: 0; }
+
+h1{ 
+	font-size: 60px;
+    font-weight: 800;
+    font-family: 'Audiowide', cursive;
+    text-decoration: bold;
+    color: white;
+    margin: 0;
+    padding-bottom: 15px
+ }
 
 
-/*
-	----------------------------
-	LAYOUT
-	____________________________
-*/
 
 
-#wrapper { width: 960px; margin: 0 auto; padding: 48px 0 72px; }
+
+
+body { 
+
+	background: #333; 
+	font:14px/21px Helvetica, Arial, sans-serif; 
+	color: #333; 
+	margin: 0; 
+	padding: 0; 
+}
+
+#wrapper { 
+
+	width: 960px; 
+	margin: 0 auto; 
+	padding: 48px 0 72px; 
+}
 
 
 .clearfix:before,
