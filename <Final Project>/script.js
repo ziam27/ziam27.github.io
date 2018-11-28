@@ -1,14 +1,21 @@
 $('#clickme').click(handleClick)
 
-function handleClick() {
+var answers = []
+
+function handleClick(event) {
+    event.preventDefault()
     
     var newItem = $('#item').val()
 
    
     if (newItem.length === 0) {
-        alert('You must enter a value!')
+        alert('Enter one of your choices,fool ')
     } else {
-        
+        // Add new item to array
+        answers.push(newItem)
+
+        console.log(answers)
+
         appendItem(newItem)
 
         $('#item')
@@ -25,3 +32,34 @@ $(document).on('click', 'li', handleRemove)
 
 function handleRemove() {
     $(this).remove() 
+}
+
+$('#randomise').click(getRandomElement)
+
+function getRandomElement() {
+    var randomNum = Math.floor(Math.random() * answers.length)
+    var randomElement = answers[randomNum]
+    console.log(answers[randomNum])
+
+    // insert randomElement into HTML
+    $('#final').append('<h4>' + randomElement + '</h4>')
+    // $('#randomise').attr('disabled', true)
+    $('#randomise').hide()
+}
+
+
+/*
+function reloadPage() {
+    $('#clear-entry').reload();
+}
+
+    /*$('#reveal').html('randomElement')
+
+
+   /* 8 (ctn): update #total element
+    $('#total').html('$' + total)
+
+    // 9: clear #newEntry
+    $('#newEntry').val('')
+
+    */

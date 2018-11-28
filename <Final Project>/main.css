@@ -80,10 +80,10 @@ p{
 .try{
   background: black;
   color: white;
-
 }
 
 h3{ 
+  background: black;
   color: white;
   text-align: center;
   font-family: 'Audiowide', cursive;
@@ -106,21 +106,103 @@ img{
   height: 100px;
 }
 
-.inputs{
-    background: white;
-    color: black;
-    height: 350px;
+.input-list{
+    background: black;
+    color: white;
+    width: 800px;
+    padding: 40px;
+    margin: 0 auto;
    
 }
 
-.inputs h3{
-  color: black;
-  text-align: center;
+ul {
+  font-family: "Audiowide", Arial, sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 30px;
+  flex: 1;
+  border: 5px solid white;
+}
+
+ul li {
+  border-bottom: 5px solid white;
+}
+
+input {
+  width: 400px;
+  font-family: "Audiowide";
+  font-size: 20px;
+  margin: 20px 0;
+  border: 1px solid #9CE6C1;
+  box-shadow: none;
+  padding: 10px;
+}
+
+button {
+  width: 250px;
+  font-family: "Audiowide";
+  font-size: 20px;
+  margin: 20px 0;
+  border: 1px solid #9CE6C1;
+  box-shadow: none;
+  padding: 10px;
+  background: linear-gradient(309deg, #333333, #dd1818);
+  color: white ;
+  margin-left: 50px;
 }
 
 #list{
   text-align: center;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  min-height: 15vh;
 }
+
+.list-submit{
+  background: white;
+  color: black;
+}
+
+.list-submit{
+  text-align: center;
+  color: black;
+}
+
+
+#return{
+  text-align: center;
+  width: 250px;
+  font-family: "Audiowide";
+  font-size: 20px;
+  margin: 20px 0;
+  border: 1px solid #9CE6C1;
+  box-shadow: none;
+  padding: 10px;
+  background: linear-gradient(309deg, #333333, #dd1818);
+  color: white ;
+  margin-left: 50px;
+
+}
+ 
+
+h4{
+  text-align: center;
+  background: -webkit-linear-gradient(#333333, #dd1818);
+  font-size: 65px;
+  font-family: "Audiowide";
+}
+
+#clear{
+  display: flex;
+}
+
+#clear p{
+  justify-content: center;
+
+}
+
 
 
 .container{
@@ -128,7 +210,7 @@ img{
   width: 250px;
   margin: 0 auto;
   position: relative;
-  background: red;
+  background: linear-gradient(309deg, #333333, #dd1818);
   border-style: solid;
   border-width: 5px;
   border-color: white;
@@ -147,7 +229,7 @@ img{
   /*background: #000;*/
 }
 .wheel:after{
-  background: none repeat scroll 0 0 red;
+  background: repeat scroll 0 0 linear-gradient(309deg, #333333, #dd1818);
   border-radius: 36px;
   content: "";
   height: 60px;

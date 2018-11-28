@@ -55,7 +55,7 @@
 
     <p>Are you hopelessy indecisive when it comes to choosing what to eat? What to watch on Netflix? What game to play, or book to read?
 
-    If you can't make up your mind, and want to let The Fates decide for you, Game-Plan is a web application that will randomly pick one of your options for you.
+    If you can't make up your mind, and want The Fates to decide for you, Game-Plan is a web application that will randomly select one of your options for you.
     </p>   
 
       <div class="bar">
@@ -88,24 +88,53 @@
 
     <p>Enter your options in the input fields below, press the button, and wait for your results!</p>
 
-    <div class="inputs">
+    <div class="input-list">
 
         <div id="wrapper">
       <h3>Enter your options here:</h3>
 
-      <input type="text" id="item">
+      <form type="submit" class="list">
+
+      <input id="item" autofocus placeholder= "Enter a choice here... ">
 
       <button id="clickme">Add Item</button>
+ 
+      </form> 
 
       <ul id="list">
+
       </ul>
+
     </div>
 
       </div>
 
+  </div>
+
+  <div class="list-submit"> 
+
+    <p>Once you have entered all your options, click below to reveal the answer...</p>
+
+    <button id="randomise">REVEAL</button>
+
 
   </div>
 
+  <div id="reveal">
+
+    <h4 id='final'> </h4>
+
+   </div>
+
+<div id="clear">
+
+  <p>Your fate has been choosen. Hit the button below to try again. </p>
+
+  
+
+<input type="button" id="return"  value="RETURN" onClick="document.location.reload(true)">
+
+ </div>
  
 <footer>
       <div class="wrapper">
