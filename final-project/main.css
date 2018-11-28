@@ -3,21 +3,18 @@
 }
 
 body {
-  
-  font-family: 'Open Sans', sans-serif;
+  background-image: url("img/bluepar.jpg");
+  font-family: 'Audiowide', sans-serif;
   font-weight: 300;
   margin: 0;
 }
 
-.vid-div{
-  position: fixed; 
-  z-index: -99; 
-  width: 100%; 
-  height: 100%;
+.general-container{ 
+padding-top: 50px; 
 }
 
-#page-header {
-  background-color: white;
+
+#page-header {  
   height: 130px;
   text-align: center;
   margin-top: 25px;
@@ -36,14 +33,14 @@ body {
     font-weight: 800;
     font-family: 'Audiowide', cursive;
     text-decoration: bold;
-    color: black;
+    color: white;
     margin: 0;
-    padding-bottom: 15px
+    padding-bottom: 15px;
     
 }
 
 .navbox{
-  background-color: black;
+  
 }
 
 #page-header .navbox a{
@@ -52,7 +49,6 @@ body {
 }
 
 footer {
-  background: black;
   color: white;
   padding: 2% 3%;
   text-align: center;
@@ -69,13 +65,13 @@ h2{
   text-align: center;
   font-family: 'Audiowide', cursive;
   text-align: center;
+  font-size: 26px;
 }
 
 p{
-  color: black;
+  color: white;
   text-align: center;
-  font-family: 'Audiowide', cursive;
-  background: white;
+  font-family: 'Audiowide', cursive;  
   padding-top: 8px;
   padding-bottom: 15px;
   margin-bottom: 0;
@@ -84,39 +80,62 @@ p{
 
 }
 
+.about-one{
+  height: 100px;
+}
+
 .try{
   background: black;
+  height: 35px;
   color: white;
 }
+
+.try p{
+  padding-bottom: 5px;
+}
+
+.planner p{
+  background: black;
+  margin: 0;
+}
+
 
 h3{ 
   background: black;
   color: white;
   text-align: center;
   font-family: 'Audiowide', cursive;
-  text-align: center;
+  font-size: 26px;
+  margin-bottom: 0;
+  padding-top: 10px;
+
 
  }
 
+#wrapper h3{
+  font-size: 22px;
+
+}
+
+
 .images{
-  background: white;
-  display: flex;
-  justify-content: space-between;
+  text-align: center;
   padding-bottom: 10px;
   padding-right: 150px;
   padding-left: 150px;
-  padding-top: 10px;
+  padding-top: 55px;
 
 }
 
 img{
-  height: 100px;
+  height: 160px;
+
 }
 
 .input-list{
     background: black;
     color: white;
-    width: 800px;
+    width: 100%;
     padding: 40px;
     margin: 0 auto;
    
@@ -165,17 +184,16 @@ button {
   display: flex;
   flex-direction: column;
   min-height: 15vh;
+  margin-bottom: 0;
 }
 
 .list-submit{
-  background: white;
-  color: black;
-}
-
-.list-submit{
+  color: white;
+  margin: 0;
   text-align: center;
-  color: black;
+  padding: 0
 }
+
 
 
 #return{
@@ -192,6 +210,12 @@ button {
   margin-left: 50px;
 
 }
+
+
+
+
+
+
  
 
 h4{
@@ -202,11 +226,12 @@ h4{
 }
 
 #clear{
-  display: flex;
+  text-align: center;
 }
 
 #clear p{
   justify-content: center;
+  color: white;
 
 }
 
